@@ -6,7 +6,7 @@ import 'package:todo_list_app/shared/cubit/states.dart';
 import 'package:todo_list_app/shared/widgets/common_widgets.dart';
 
 class HomeLayout extends StatelessWidget {
-  HomeLayout({super.key});
+    HomeLayout({super.key});
 
   final TextEditingController titleController = TextEditingController();
   final TextEditingController timeController = TextEditingController();
